@@ -1,7 +1,7 @@
 ---
 # Note: Sharing YML variables between this file and contact._en.md does not work well.
 # Instead variables are typically shared from the data folder. Variables are duplicated for now.
-permalink: /contact/case-submitted
+permalink: /contact/case-submitted/
 redirect_from:
   - /en/contact/case-submitted
 form_submitted_message: >-
