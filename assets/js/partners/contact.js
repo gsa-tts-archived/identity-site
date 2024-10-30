@@ -28,7 +28,7 @@ function fetchSelectInput(name) {
 async function submitPartnerContact(event) {
   event.preventDefault();
 
-  const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
+  const debug = Array.prototype.slice.apply(document.getElementsByName('debugger'))[0];
   const form = document.getElementById('contact-us-form');
   const formSubmitError = document.getElementById('form-submit-error-message');
   const formEmailError = document.getElementById('form-email-error-message');
