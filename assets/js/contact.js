@@ -1,7 +1,7 @@
 import { populateFormAgencyValues } from './populate_contact_form_agency.js';
 
 function verifyCanSubmitEntry() {
-  const debug = Array.prototype.slice.apply(document.getElementsByName('debug'))[0];
+  const debug = Array.prototype.slice.apply(document.getElementsByName('debugger'))[0];
   if (debug && +debug.value) {
     return;
   }
