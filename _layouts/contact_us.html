@@ -48,7 +48,7 @@ common_applications:
   {% endif %}
 
   <div class="desktop:grid-col-9">
-    <div class="form-success-wrapper">
+    <div class="display-none" id="form-success-wrapper">
       {% assign form_success_message = page.form_success_message | newline_to_br %}
 
       {% include alert.html
