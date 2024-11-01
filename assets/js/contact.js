@@ -3,7 +3,8 @@ import { populateFormAgencyValues } from './populate_contact_form_agency.js';
 // Note: The Salesforce endpoint doesn't allow JavaScript requests from different domains due to CORS,
 // unlike the Zendesk endpoint seen in /partners/contact.js.
 //
-// This approach uses traditional form submission due to testing difficulties with Salesforce.
+// At the moment this approach uses traditional form submission due to testing difficulties.
+// The style will likely change.
 
 const handleContactForm = () => {
   const elements = {
