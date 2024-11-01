@@ -3,6 +3,11 @@ layout: contact_us
 sidenav: contact_us
 title: Contact us
 description: Have a question or a problem with Login.gov?
+form_success_message: >-
+  Your help ticket was submitted successfully.
+
+  Check your email for next steps.
+submit_help_ticket_link_text: Submit a new help ticket
 intro_content: >-
   ## Get in touch
 
