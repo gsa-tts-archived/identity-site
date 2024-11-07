@@ -1,6 +1,6 @@
 import { populateFormAgencyValues } from './populate_contact_form_agency.js';
 
-// Note: CORS issues seem to persist.
+// Note: CORS issues persist.
 
 const handleContactForm = () => {
   const elements = {
@@ -108,7 +108,7 @@ const handleContactForm = () => {
         return;
       }
 
-      // Double check payload is remapped
+      // Double check payload
       if (!window.remapFormValues.call(elements.form)) {
         console.error('Error remapping values');
         return;
