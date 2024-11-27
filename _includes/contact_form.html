@@ -411,9 +411,10 @@
 
 <div id="contact-us-form-wrapper">
   <h3>{{ site.data.[page.lang].settings.contact_page.support_request_form.title }}</h3>
+  <!-- Note: Temporary override !-->
   <form
     id="contact-us-form"
-    action="{{ site.contact_form_action }}"
+    action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00DSL000000Z8cS"
     method="POST"
     onSubmit="return remapFormValues(this); return true;"
     class="usa-form"
